@@ -1,0 +1,118 @@
+img {
+    width: 250px;
+    height: 250px;
+    border: solid;
+    color: black;
+}
+
+html {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: #ff8a73;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/418uIfQKYvL._SX425_.jpg");
+    cursor: url('http://www.rw-designer.com/cursor-view/115599.png'), auto;
+}
+
+h1  {
+    font-family: Lobster;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 5px red;
+    background: black;
+    background: rgba(100,100,100,0.75);
+    
+}
+
+h2 {
+    font-family: 'Roboto Condensed';
+    color: white;
+    background: rgba(0,0,0,0.75);
+}
+
+p   {
+    font-family: Arial;
+    background: rgba(100,100,100,0.75);
+}
+
+li {
+    font-family: 'Raleway';
+    background: rgba(20,20,10,0.75);
+}
+
+.parallax {
+    background-image: url("https://scontent-lht6-1.cdninstagram.com/vp/28645719678b590347f97843bf06591c/5C646226/t51.2885-15/e35/38051844_413353419193315_6922476851440910336_n.jpg?se=8&ig_cache_key=MTg0NDA0NjcwNzc2NDE1MzM1NA%3D%3D.2");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes slider {
+    
+   0% {
+   left: 0;
+   }
+   
+   20% {
+   left: -60%;
+   }
+   
+   25% {
+   left: -120%;
+   }
+   
+   45% {
+       left: -180%;
+   }
+
+   50% {
+       left: -240%;
+   }
+   
+   70% {
+   	left: -180%;
+   }
+   
+   75% {
+   	left: -120%;
+   }
+   
+   95% {
+   	left: -60%;
+   }
+   
+   100% {
+   	left: -0%;
+   }
+
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure img {
+    width: 12%;
+    float: left;
+}
+
+#slider figure {
+    position: relative;
+    width: 350%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slider infinite;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+.cursor {
+    background-image: url('http://www.rw-designer.com/cursor-view/115597.png');
+}
